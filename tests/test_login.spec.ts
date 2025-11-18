@@ -12,6 +12,7 @@ test.describe('Principal', () => {
 });
 
 test('Te llamamos', async ({ page }) => {
+  await page.waitForTimeout(3000);
   const teLlamamosLink = page.locator('a[title="Te llamamos"]');
   await expect(teLlamamosLink).toBeVisible();
   await teLlamamosLink.click();
