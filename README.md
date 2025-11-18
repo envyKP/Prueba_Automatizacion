@@ -65,7 +65,7 @@ Después de cada ejecución, Playwright genera evidencia visual de los tests en 
 ```
 
 Aquí encontrarás:
-- Capturas de pantalla
+- Capturas de pantalla screenshot: se puede habilitar en playwright.config.ts  en el metedo defineConfig la opcion use:'on',
 - Videos  se puede habilitar en playwright.config.ts  en el metedo defineConfig la opcion use: video: 'on'
 - Reportes HTML
 
